@@ -9,10 +9,11 @@ int main(void)
     if(pid > 0)
     {
         printf("parent\n");
-        while(1);
+        printf("kill child %d\n",wait(NULL));
     }
     else if(pid == 0)
     {
+        printf("child\n");
         char *buf[] = {"pwd",NULL};
         execvp("pwd",buf);
     }
