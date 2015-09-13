@@ -11,7 +11,7 @@ int main(void)
     if(pid > 0)
     {
         printf("yzmin\n");
-        printf("kill child %d\n",waitpid(0,&status,WNOHANG));
+        printf("kill child %d\n",waitpid(-1,&status,WNOHANG));
         if(WIFEXITED(status))
             printf("exit status %d\n",WEXITSTATUS(status));
 
