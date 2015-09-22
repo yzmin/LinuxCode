@@ -1,0 +1,29 @@
+METHOD_GET	webbench.c	35
+METHOD_HEAD	webbench.c	36
+METHOD_OPTIONS	webbench.c	37
+METHOD_TRACE	webbench.c	38
+Mwebbench	webbench.c	/^int main(int argc, char *argv[])$/
+PROGRAM_VERSION	webbench.c	39
+REQUEST_SIZE	webbench.c	50
+Socket	socket.c	/^int Socket(const char *host, int clientPort)$/
+alarm_handler	webbench.c	/^static void alarm_handler(int signal)$/
+bench	webbench.c	/^static int bench(void)$/
+benchcore	webbench.c	/^void benchcore(const char *host,const int port,con/
+benchtime	webbench.c	46
+build_request	webbench.c	/^void build_request(const char *url)$/
+bytes	webbench.c	31
+clients	webbench.c	41
+failed	webbench.c	30
+force	webbench.c	42
+force_reload	webbench.c	43
+host	webbench.c	49
+http10	webbench.c	33
+long_options	webbench.c	53
+method	webbench.c	40
+mypipe	webbench.c	48
+proxyhost	webbench.c	45
+proxyport	webbench.c	44
+request	webbench.c	51
+speed	webbench.c	29
+timerexpired	webbench.c	28
+usage	webbench.c	/^static void usage(void)$/
