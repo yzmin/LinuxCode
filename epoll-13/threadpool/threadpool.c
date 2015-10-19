@@ -1,4 +1,4 @@
-/*by wenpeng.xing@gmail.com*/
+/**/
 
 #include <stdlib.h>
 #include <pthread.h>
