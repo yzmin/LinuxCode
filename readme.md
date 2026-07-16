@@ -1,6 +1,3 @@
-name:
-	title-days
-
-eg:	IOBase-01
-
-个人学习笔记
+个人学习Linux系统编译记录
+包含：学习代码和学习笔记
+仅供参考
